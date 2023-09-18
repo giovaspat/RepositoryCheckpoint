@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    color : gray;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.voci {
+    margin: 7rem;
+}
+
+#Home {
+    color: green;
+}
+
+#Brand {
+    color :green;
+    font-size: 36px;
+}
+
+@media(max-width:768px) {
+    .words {
+        display: none;
+    }
+}
